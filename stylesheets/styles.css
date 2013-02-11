@@ -1,1 +1,63 @@
-body {margin: 0;}
+/*
+ * color scheme:
+ * https://kuler.adobe.com/#themeID/2233543
+ * #BF9F63 - bege escuro
+ * #F2E6CE - bege claro
+ * #251F1D - cinza escuro
+ * #A61C1C - vermelho
+ * #FFFFFF - branco
+ */
+
+body {
+  margin: 0;
+  background-color: #F2E6CE;
+  color: #251F1D;
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px;
+  color:#A61C1C;
+  font-size: 80px;
+  /*font-family: 'Bilbo Swash Caps', cursive;*/
+  /*font-family: 'Montez', cursive;*/
+  font-family: 'Mrs Saint Delafield', cursive;
+  /*font-family: 'Romanesco', cursive;*/
+  /*font-family: 'Sacramento', cursive;*/
+  /*font-family: 'Miss Fajardose', cursive;*/
+  /*font-family: 'Courgette', cursive;*/
+  /*font-family: 'Herr Von Muellerhoff', cursive;*/
+}
+
+a {
+  color: #251F1D;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #251F1D;
+  color: #fff;
+}
+
+#menu {
+  padding: 0;
+  background-color: #A61C1C;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+}
+
+.capa {
+  margin: 0 auto;
+  display: block;
+  border: 10px solid #fff;
+  -webkit-box-shadow: 0 5px 30px 5px #BF9F63;
+     -moz-box-shadow: 0 5px 30px 5px #BF9F63;
+          box-shadow: 0 5px 30px 5px #BF9F63;
+}
