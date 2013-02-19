@@ -11,6 +11,7 @@
 body {
   margin: 0;
   background-color: #F2E6CE;
+  background-image: url(../images/bg.jpg);
   color: #251F1D;
   font-family: arial;
 }
@@ -41,12 +42,21 @@ h2{
 a {
   color: #251F1D;
   text-decoration: none;
-  padding: 8px 10px;
 }
 
 a:hover {
+  text-decoration: underline;
+}
+
+#menu a {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+#menu a:hover {
   background-color: #251F1D;
   color: #fff;
+  text-decoration: none;
 }
 
 #menu {
@@ -75,4 +85,17 @@ a:hover {
 
 #local iframe {
   border: 1px solid #000;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  background-color:#A61C1C;
+  color:#fff;
+  padding: 5px;
+  font-size: 10px;
+}
+
+footer a {
+  color: #fff;
 }
